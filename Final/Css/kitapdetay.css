@@ -1,0 +1,156 @@
+:root {
+    --ana-renk: #607274;
+    --ikinci-renk:#2C3333;
+    --ucuncu-renk:#395B64;
+    --dorduncu-renk: #A5C9CA;
+    --besinci-renk:#E7F6F2;
+}
+
+.genel {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sol-kitap {
+    margin-top: 120px;
+    width: 35%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sag-kitap {
+    width: 55%;
+    height: 90vh;
+    background: linear-gradient(to right, var(--ana-renk), var(--dorduncu-renk));
+    padding: 30px;
+    margin-top: 120px;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.fotog {
+    width: 400px;
+    height: 500px;
+    background-color: azure;
+    border-radius: 10px;
+    border: 2px solid var(--besinci-renk);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotog img {
+    border-radius: 7px;
+}
+
+.fotog img:hover {
+    transform: scale(1.1);
+    transition: all 1.2s ease-in-out;
+}
+
+.start-line {
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bkName {
+    width: 100%;
+    height: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+.bkName p {
+    font-size: 50px;
+    text-decoration: underline 2px solid black;
+}
+
+.bk-writer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.bk-writer p {
+    line-height: 35px;
+    font-size: 25px;
+}
+.bk-writer b{
+    color: white;
+    margin-right: 15px;
+}
+.end-colum{
+    display: flex;
+}
+.end-colum p {
+    font-size: 25px;
+    text-decoration: none;
+}
+.end-colum h6 {
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.end-line {
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end-line button {
+    width: 200px;
+    height: 40px;
+    background-color: var(--ana-renk);
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--dorduncu-renk);
+    cursor: pointer;
+}
+
+.daha-fazla{
+    margin-top: 30px;
+    margin-left: 20px;}
+.daha-fazla a{
+    text-decoration: underline 2px solid var(--ikinci-renk);
+    color: var(--besinci-renk);
+    font-size: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.oneri-satir{
+    width: 100%;
+    height: 400px;
+    background-color: var(--ana-renk);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+}
+.baslik{
+    font-family: 'Courier New', Courier, monospace;
+    color:wheat;
+    font-size: 40px;
+    text-decoration: underline 2px solid var(--besinci-renk);
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.k-ozet {
+width:50%;
+font-size: 30px;
+color: white;
+}

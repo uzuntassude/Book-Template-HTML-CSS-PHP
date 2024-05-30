@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --ana-renk: #607274;
+    --ikinci-renk:#2C3333;
+    --ucuncu-renk:#395B64;
+    --dorduncu-renk: #A5C9CA;
+    --besinci-renk:#E7F6F2;
+}
+
+::-webkit-scrollbar {   
+    display: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, var(--ucuncu-renk), var(--ikinci-renk));
+}
+
+
+.container {
+    width: 950px;
+    padding: 0 20px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background: var(--ana-renk);
+    border-radius: 10px;
+    border: 2px solid var(--ana-renk);
+}
+
+.form-box{
+    width: 950px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.orta-sutun{
+    height: 500px;
+    border: 2px solid var(--ana-renk);
+    border-radius: 10px;
+}
+.form-satir {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form-satir input {
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    color: var(--ikinci-renk);
+}
+
+.form-satir input:focus {
+    border: none;
+    outline: none;
+}
+
+.form-satir select {
+    width: 300px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    color: var(--ikinci-renk);
+}
+
+.form-satir textarea {
+    height: 50px;
+    width: 300px;
+
+}
+
+.satir {
+    width: 130px;
+}
+
+.satir label {
+    font-size: 20px;
+    color: var(--besinci-renk);
+}
+
+.form-satir textarea {
+    margin-top: 30px;
+}
+
+.form-satir button {
+    width: 140px;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-weight: 900;
+    color: var(--besinci-renk);
+    background-color: var(--ikinci-renk);
+}
+
+.form-satir button:hover {
+    width: 140px;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: var(--besinci-renk);
+    background-color: var(--ucuncu-renk);
+    transition: all 1.3s ease-in-out;
+}
